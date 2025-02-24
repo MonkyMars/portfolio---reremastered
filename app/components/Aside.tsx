@@ -21,7 +21,7 @@ const Aside = () => {
           onClick={() => router.push("https://www.github.com/monkymars")}
           className="font-doto font-extrabold w-full flex items-center justify-center gap-3 
                 bg-gradient-to-r from-gray-700 to-gray-800 text-white py-3 px-4 rounded-xl transform
-                transition-all duration-300 shadow-md hover:shadow-lg text-lg"
+                transition-all duration-300 shadow-md hover:shadow-lg text-lg translate hover:-translate-y-[2px]"
         >
           <span className="flex items-center gap-3">
             GitHub
@@ -63,6 +63,8 @@ const Aside = () => {
               The Hague, The Netherlands
             </p>
           </div>
+        </div>
+        <div>
         </div>
       </div>
     </aside>
