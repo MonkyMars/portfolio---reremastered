@@ -6,7 +6,7 @@ const Footer = () => {
         © {new Date().getFullYear()} All Rights Reserved By Levi Noppers
       </div>
       <div className="flex justify-center space-x-4 text-primary-500 text-sm mt-4">
-        <a href="https://github.com/LeviNoppers" className="hover:text-primary-600">GitHub</a>
+        <a href="https://github.com/MonkyMars" className="hover:text-primary-600">GitHub</a>
         <a href="mailto:levi.laptop@hotmail.com" className="hover:text-primary-600">Email</a>
       </div>
     </footer>
