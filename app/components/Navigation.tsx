@@ -23,7 +23,7 @@ const Navigation = () => {
           <li
             key={index}
             onClick={() => router.push(icon.href)}
-            className="flex flex-col items-center p-3 hover:bg-gray-50 rounded-lg cursor-pointer transition-all"
+            className="flex flex-col items-center p-4 w-full hover:bg-slate-200/70 rounded-lg cursor-pointer transition-all"
           >
             <icon.src size={24} className="text-primary-500 mb-1" />
             <span className="text-sm font-medium text-gray-700">

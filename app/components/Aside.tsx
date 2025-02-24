@@ -6,8 +6,8 @@ import { useRouter } from "next/navigation";
 const Aside = () => {
   const router = useRouter();
   return (
-    <aside className="md:col-span-4 lg:col-span-3 drop-shadow-xl" id="aside">
-      <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
+    <aside className="md:col-span-4 lg:col-span-3 drop-shadow-xl h-full" id="aside">
+      <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-2 sm:py-8 border border-gray-100">
         <div className="text-center mb-8">
           <h2 className="text-2xl text-gray-800 mb-3 font-doto font-extrabold">
             Levi Noppers
