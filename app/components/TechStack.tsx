@@ -56,7 +56,7 @@ const TechStack = () => {
 
   return (
     <section
-      className="bg-white rounded-2xl shadow-lg md:p-4 mb-8 border border-gray-100"
+      className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-1 border-[rgba(255,255,255, 0.1)]"
       id="techstack"
     >
       <h2 className="text-2xl font-doto font-extrabold text-gray-800 mb-6 flex items-center gap-2">
@@ -70,7 +70,7 @@ const TechStack = () => {
             <div
               key={index}
               className="group hover:bg-gray-50 p-6 transform hover:translate-x-1 
-              border-l-4 border-primary-500 duration-500 transition-all bg-slate-200/50"
+              border-l-4 border-primary-500 duration-300 transition-all bg-slate-200/50"
             >
               <div className="flex flex-col sm:flex-row gap-6 items-start">
                 <div className="w-16 h-16 relative bg-gray-100 rounded-lg p-3 transition-colors group-hover:bg-white">
