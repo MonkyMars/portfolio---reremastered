@@ -70,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="antialiased bg-gray-50"
+        className="antialiased bg-gray-200/20"
       >
         {children}
       </body>

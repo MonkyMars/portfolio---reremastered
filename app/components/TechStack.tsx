@@ -70,7 +70,7 @@ const TechStack = () => {
             <div
               key={index}
               className="group hover:bg-gray-50 p-6 transform hover:translate-x-1 
-              border-l-4 border-primary-500 duration-300 transition-all bg-slate-200/50"
+              border-l-4 border-primary-500 duration-300 transition-all bg-slate-200/20 rounded-r-lg"
             >
               <div className="flex flex-col sm:flex-row gap-6 items-start">
                 <div className="w-16 h-16 relative bg-gray-100 rounded-lg p-3 transition-colors group-hover:bg-white">

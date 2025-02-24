@@ -18,6 +18,12 @@ const Experiences = () => {
         "Committed to pursuing software development as a career path, establishing a structured learning routine",
     },
     {
+      title: "Creating projects",
+      date: "2024",
+      description: 
+      "Made multiple projects in Next.js, TypeScript and Tailwind CSS. The projects include a webstore, a social media platform, a personal gallery and a collection of albumcovers",
+    },
+    {
       title: "Q42 Internship",
       date: "06/01/2025",
       description:
@@ -40,7 +46,7 @@ const Experiences = () => {
         {experiences?.map((experience, index) => (
           <div
             key={index}
-            className="border-l-4 border-primary-500 pl-4 py-2 bg-slate-200/50 rounded-r-lg translate hover:translate-x-1 transition-transform duration-300"
+            className="border-l-4 border-primary-500 pl-4 py-2 bg-slate-200/20 rounded-r-lg translate hover:translate-x-1 transition-transform duration-300"
           >
             <span className="text-sm text-primary-600 font-medium">
               {experience.date}
