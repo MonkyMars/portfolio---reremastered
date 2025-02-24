@@ -9,9 +9,9 @@ const Aside = () => (
   >
     <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-2 sm:py-8 border border-gray-100">
       <div className="text-center mb-8">
-        <h2 className="text-2xl text-gray-800 mb-3 font-doto font-extrabold">
+        <h1 className="text-2xl text-gray-800 mb-3 font-doto font-extrabold">
           Levi Noppers
-        </h2>
+        </h1>
         <p className="text-primary-600 font-medium text-lg">
           Fullstack Web Developer
         </p>
