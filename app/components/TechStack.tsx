@@ -77,7 +77,7 @@ const TechStack = () => {
                   <Image
                     src={`/icons/${stackItem.iconSrc.toLocaleLowerCase()}.png`}
                     alt={stackItem.label}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-all duration-100"
                     fill
                     draggable={false}
                   />
