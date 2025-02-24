@@ -22,7 +22,7 @@ const Navigation = () => (
       {nav_icons?.map((icon, index) => (
         <Link
           key={index}
-          href={icon.href}
+          href={icon.href} 
           prefetch
           className="flex flex-col items-center p-4 w-full hover:bg-slate-200/70 rounded-lg cursor-pointer transition-all hover:scale-[1.02]"
         >

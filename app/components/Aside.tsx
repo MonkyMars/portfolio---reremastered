@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Aside = () => (
   <aside
-    className="md:col-span-4 lg:col-span-3 shadow-xl h-full"
-    id="aside"
+    className="md:col-span-4 lg:col-span-3 shadow-lg h-full"
+    id="aside" 
   >
     <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-2 sm:py-8 border border-gray-100">
       <div className="text-center mb-8">
