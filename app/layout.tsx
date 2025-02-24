@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Levi Noppers | Full Stack Developer",
   description:
-    "Welcome to my professional portfolio. I'm a Full Stack Developer specializing in React, Next.js, and modern web technologies. Explore my projects and experience in software development.",
+    "Portfolio of Levi Noppers. Full Stack Developer specializing in creating modern, responsive web applications with React, Next.js, and Tailwind CSS.",
   keywords: [
     "full stack developer",
     "web developer",
@@ -20,7 +20,22 @@ export const metadata: Metadata = {
     "portfolio",
     "levi",
     "noppers",
-    "levi noppers"
+    "levi noppers",
+    "frontend developer",
+    "backend developer",
+    "web design",
+    "responsive design",
+    "UI/UX",
+    "HTML",
+    "CSS",
+    "Tailwind CSS",
+    "REST API",
+    "GraphQL",
+    "database",
+    "MongoDB",
+    "PostgreSQL",
+    "Git",
+    "agile development"
   ],
   authors: [{ name: "Levi Noppers", url: "https://levinoppers.nl" }],
   creator: "Levi Noppers",
