@@ -17,7 +17,7 @@ const nav_icons: navIcons[] = [
 const Navigation = () => {
   const router = useRouter();
   return (
-    <nav className="bg-white rounded-xl shadow-sm mb-8 border border-gray-100" id="navigation">
+    <nav className="bg-white rounded-xl shadow-lg mb-8 border border-gray-100" id="navigation">
       <ul className="flex justify-around p-2">
         {nav_icons?.map((icon, index) => (
           <li

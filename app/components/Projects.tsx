@@ -77,6 +77,7 @@ const Projects = () => {
                     src={project.image}
                     alt={project.title}
                     fill
+                    unoptimized
                     className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
                   />
                 </div>

@@ -9,28 +9,42 @@ import Footer from "./components/Footer";
 const Home: NextPage = () => {
   return (
     <>
-      <main className="min-h-screen bg-gray-50">
+      <main className="min-h-screen">
         {/* Hero Section with Aside */}
-        <div className="container mx-auto px-4 py-8 md:py-16">
-          <div className="grid md:grid-cols-12 gap-8">
-            {/* Profile Card */}
-            <Aside />
+        <div className="container mx-auto px-2 sm:px-4 py-4 sm:py-8 md:py-16">
+          <div className="grid md:grid-cols-12 gap-4 sm:gap-8">
+        {/* Profile Card */}
+        <div className="w-full md:col-span-4 lg:col-span-3 overflow-x-hidden">
+          <Aside />
+        </div>
 
-            {/* Main Content */}
-            <div className="md:col-span-8 lg:col-span-9">
-              {/* Navigation */}
-              <Navigation />
-
-              {/* About Section */}
-              <About />
-
-              {/* Experience Section */}
-              <Experiences />
-
-              {/* Projects Section */}
-              <Projects />
-            </div>
+        {/* Main Content */}
+        <div className="w-full md:col-span-8 lg:col-span-9">
+          {/* Navigation */}
+          <div className="max-w-[95vw] sm:max-w-full mx-auto">
+            <Navigation />
           </div>
+
+          {/* About Section */}
+          <div className="max-w-[95vw] sm:max-w-full mx-auto">
+            <About />
+          </div>
+
+          {/* Experience Section */}
+          
+        </div>
+        
+        
+          </div><div className="flex flex-col w-full">
+          <div className="">
+            <Experiences />
+          </div>
+
+          {/* Projects Section */}
+          <div className="max-w-[95vw] sm:max-w-full mx-auto">
+            <Projects />
+          </div>
+        </div>
         </div>
 
         <Footer />

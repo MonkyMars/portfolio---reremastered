@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 const Aside = () => {
   const router = useRouter();
   return (
-    <aside className="md:col-span-4 lg:col-span-3" id="aside">
+    <aside className="md:col-span-4 lg:col-span-3 drop-shadow-xl" id="aside">
       <div className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
         <div className="text-center mb-8">
           <h2 className="text-2xl text-gray-800 mb-3 font-doto font-extrabold">
@@ -44,7 +44,7 @@ const Aside = () => {
               <Mail className="text-primary-500" size={24}/>
               <span className="text-lg font-doto font-extrabold">Email</span>
             </div>
-            <p className="text-base text-gray-600 pl-10" title="Email">
+            <p className="text-base text-gray-600 pl-10 text-wrap break-words" title="Email">
               Levi.laptop@hotmail.com
             </p>
           </div>
