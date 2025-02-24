@@ -12,7 +12,7 @@ const TechStack = () => {
       label: "Next.js",
       iconSrc: "nextjs",
       experience: 2023,
-      note: "Next.js has been by far my favorite framework ever. It's extremely fast and easy to use, especially if you come from React; Like me.",
+      note: "Next.js has been by far my favorite framework ever. It's extremely fast, amazing for SEO and easy to use, especially if you come from React; Like me.",
       type: "framework"
     },
     {
@@ -33,14 +33,14 @@ const TechStack = () => {
       label: "Python",
       iconSrc: "python",
       experience: 2022,
-      note: "I've used Python for a while now, mostly in school and for my projects at the beginning of my journy.",
+      note: "I've used Python for a while now, mostly in school and for my projects at the beginning of my journey.",
       type: "language"
     },
     {
       label: "React",
       iconSrc: "react",
       experience: 2023,
-      note: "React is a great library for building user interfaces. It's easy to learn and has a great community.",
+      note: "React is a great library for a first web framework to learn. Although I prefer Next.js, I still use React for smaller projects.",
       type: "library"
     }
   ];
@@ -70,7 +70,7 @@ const TechStack = () => {
                 <div className="flex items-center gap-3">
                   <h3 className="text-xl font-bold text-gray-800">{stackItem.label}</h3>
                   <span className="text-sm px-3 py-1 bg-primary-100 text-primary-600 rounded-full font-medium">
-                    {stackItem.type}
+                    {stackItem.type.charAt(0).toUpperCase() + stackItem.type.slice(1).toLowerCase()}
                   </span>
                 </div>
                 <span className="text-sm text-primary-600 font-medium block mt-2">
