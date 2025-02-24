@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     "JavaScript",
     "TypeScript",
     "portfolio",
+    "levi",
+    "noppers",
+    "levi noppers"
   ],
   authors: [{ name: "Levi Noppers" }],
   manifest: "/site.webmanifest",
