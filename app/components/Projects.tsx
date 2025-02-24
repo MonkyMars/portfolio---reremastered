@@ -68,7 +68,7 @@ const Projects = () => {
         {projects?.map((project, index) => (
           <div
             key={index}
-            className="group hover:bg-gray-50 rounded-xl p-6 transition-all"
+            className="group hover:bg-gray-50 p-6 transition-all"
           >
             <div className="flex flex-col md:flex-row gap-6">
               <div className="w-full md:w-1/2">

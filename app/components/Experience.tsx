@@ -40,7 +40,7 @@ const Experiences = () => {
         {experiences?.map((experience, index) => (
           <div
             key={index}
-            className="border-l-4 border-primary-500 pl-4 py-2 bg-gray-50/90 rounded-r-lg translate hover:translate-x-1 transition-transform duration-300"
+            className="border-l-4 border-primary-500 pl-4 py-2 bg-slate-200/50 rounded-r-lg translate hover:translate-x-1 transition-transform duration-300"
           >
             <span className="text-sm text-primary-600 font-medium">
               {experience.date}
