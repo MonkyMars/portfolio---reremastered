@@ -74,7 +74,7 @@ const Projects = () => {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-video overflow-hidden rounded-lg">
                   <Image
-                    src={project.image}
+                    src={`/demos/${project.image}`}
                     alt={project.title}
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"

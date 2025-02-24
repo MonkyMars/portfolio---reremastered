@@ -26,21 +26,21 @@ export const metadata: Metadata = {
     description:
       "Full Stack Developer specializing in creating modern, responsive web applications with React, Node.js, and cutting-edge technologies.",
     type: "website",
-    url: "https://levinoppers-portfolio.vercel.app",
-    images: ["https://levinoppers-portfolio.vercel.app/code.png"],
+    url: "https://levinoppers.nl",
+    images: ["https://levinoppers.nl/code.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Levi Noppers | Full Stack Developer",
     description:
       "Full Stack Developer crafting exceptional web experiences. View my portfolio to see my latest projects and technical expertise.",
-    images: ["https://levinoppers-portfolio.vercel.app/code.png"],
+    images: ["https://levinoppers.nl/code.png"],
   },
   icons: {
     icon: "/code.png",
   },
   alternates: {
-    canonical: "https://levinoppers-portfolio.vercel.app",
+    canonical: "https://levinoppers.nl",
   },
   robots: {
     index: true,
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
       follow: true,
     },
   },
-  metadataBase: new URL('https://levinoppers-portfolio.vercel.app'),
+  metadataBase: new URL('https://levinoppers.nl'),
 };
 
 export const viewport: Viewport = {
