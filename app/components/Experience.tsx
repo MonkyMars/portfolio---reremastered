@@ -37,18 +37,18 @@ const Experiences = () => {
         <div className="h-1 w-24 bg-primary-500 rounded-full"></div>
       </h2>
       <div className="grid gap-6">
-        {experiences?.map((exp, index) => (
+        {experiences?.map((experience, index) => (
           <div
             key={index}
-            className="border-l-4 border-primary-500 pl-4 py-2 bg-gray-50/90 rounded-r-lg"
+            className="border-l-4 border-primary-500 pl-4 py-2 bg-gray-50/90 rounded-r-lg translate hover:translate-x-1 transition-transform duration-300"
           >
             <span className="text-sm text-primary-600 font-medium">
-              {exp.date}
+              {experience.date}
             </span>
             <h4 className="text-lg font-semibold text-gray-800 mt-1">
-              {exp.title}
+              {experience.title}
             </h4>
-            <p className="text-gray-600 mt-1">{exp.description}</p>
+            <p className="text-gray-600 mt-1">{experience.description}</p>
           </div>
         ))}
       </div>
