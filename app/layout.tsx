@@ -74,9 +74,9 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://levinoppers.nl",
+    canonical: "https://www.levinoppers.nl",
     languages: {
-      'en-US': 'https://levinoppers.nl',
+      'en-US': 'https://www.levinoppers.nl',
     },
   },
   robots: {
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  metadataBase: new URL('https://levinoppers.nl'),
+  metadataBase: new URL('https://www.levinoppers.nl'),
 };
 
 export const viewport: Viewport = {
