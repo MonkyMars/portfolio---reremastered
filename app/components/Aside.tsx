@@ -7,7 +7,7 @@ const Aside = () => (
     className="md:col-span-4 lg:col-span-3 shadow-lg h-full"
     id="aside" 
   >
-    <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-2 sm:py-8 border border-gray-100">
+    <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-3 sm:py-8 border border-gray-100">
       <div className="text-center mb-8">
         <h1 className="text-2xl text-gray-800 mb-3 font-doto font-extrabold">
           Levi Noppers
@@ -40,7 +40,7 @@ const Aside = () => (
 
       <div className="space-y-6 mt-8">
         <Link
-          className="hover:bg-gray-50 p-5 rounded-lg transition-all cursor-pointer"
+          className="p-5 rounded-lg transition-all cursor-pointer"
           href="mailto:levi.laptop@hotmail.com"
           prefetch
           target="_blank"
@@ -50,7 +50,7 @@ const Aside = () => (
             <span className="text-lg font-doto font-extrabold">Email</span>
           </div>
           <p
-            className="text-base text-gray-600 pl-10 text-wrap break-words"
+            className="text-base text-gray-600 pl-2 text-wrap break-words"
             title="Email"
           >
             Levi.laptop@hotmail.com
@@ -58,7 +58,7 @@ const Aside = () => (
         </Link>
 
         <Link
-          className="hover:bg-gray-50 p-5 rounded-lg transition-all cursor-pointer"
+          className="p-5 rounded-lg transition-all cursor-pointer"
           href="https://maps.app.goo.gl/DaZ11s9p4dsVNVjn7"
           prefetch
           target="_blank"
@@ -67,7 +67,7 @@ const Aside = () => (
             <MapPinHouse className="text-primary-500" size={24} />
             <span className="text-lg font-doto font-extrabold">Location</span>
           </div>
-          <p className="text-base text-gray-600 pl-10" title="Location">
+          <p className="text-base text-gray-600 pl-2 w-full" title="Location">
             The Hague, The Netherlands
           </p>
         </Link>
