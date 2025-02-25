@@ -15,7 +15,7 @@ const nav_icons: navIcons[] = [
 
 const Navigation = () => (
   <nav
-    className="bg-white rounded-xl shadow-lg mb-8 border border-gray-100"
+    className="bg-white rounded-xl shadow-lg mb-8 border border-gray-100 p-2"
     id="navigation"
   >
     <div className="flex justify-around p-2 sm:p-1">
