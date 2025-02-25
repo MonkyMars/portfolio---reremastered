@@ -58,6 +58,7 @@ const TimeLineView: React.FC<TimelineProps> = ({ project, onClose }) => {
                         width={24}
                         height={24}
                         className="object-contain"
+                        unoptimized
                       />
                       <li className="text-primary-600 font-medium list-none">
                         {tech}
