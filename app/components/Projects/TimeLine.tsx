@@ -53,7 +53,7 @@ const TimeLineView: React.FC<TimelineProps> = ({ project, onClose }) => {
                       className="flex items-center gap-2 bg-primary-200/50 p-2 rounded-lg shadow-sm"
                     >
                       <Image
-                        src={`/icons/${encodeURI(tech).replaceAll('.', '')}.png`}
+                        src={`/icons/${tech.replaceAll('.', '').toLocaleLowerCase()}.png`}
                         alt={`${tech} icon`}
                         width={24}
                         height={24}
