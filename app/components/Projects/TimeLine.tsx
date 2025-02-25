@@ -10,7 +10,6 @@ const TimeLineView: React.FC<TimelineProps> = ({ project, onClose }) => {
         <article className="bg-white max-w-4xl max-h-full p-8 rounded-lg shadow-lg pointer-events-auto overflow-auto">
           <div className="flex items-center justify-between relative">
             <span className="inline-block px-3 py-1 my-3 rounded-full bg-primary-100 text-primary-600 text-sm font-medium">
-            Finished Project on:{" "}
             {project.date.toLocaleDateString("en-US", {
               month: "long",
               day: "numeric",
@@ -22,7 +21,7 @@ const TimeLineView: React.FC<TimelineProps> = ({ project, onClose }) => {
           
           <header>
             <h1 className="font-doto font-extrabold text-4xl my-3">
-              {project.title}
+              {project.title} - Process
             </h1>
             <p className="text-left max-w-[80ch]">{project.description}</p>
           </header>
