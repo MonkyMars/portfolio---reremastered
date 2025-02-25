@@ -69,7 +69,7 @@ const Projects = () => {
         {projects?.sort((a, b) => Number(b.date) - Number(a.date)).map((project, index) => (
           <div
             key={index}
-            className="group hover:bg-gray-50 p-6 transition-all"
+            className="group hover:bg-gray-50 p-6 transition-all rounded-lg"
           >
             <div className="flex flex-col md:flex-row gap-6">
               <div className="w-full md:w-1/2">
@@ -87,8 +87,8 @@ const Projects = () => {
               </div>
               <div className="w-full md:w-1/2">
                 <span className="inline-block px-3 py-1 rounded-full bg-primary-100 text-primary-600 text-sm font-medium">
-                  {new Date(project.date).toLocaleDateString('us-US', {
-                  month: 'short',
+                  {project.date.toLocaleDateString('en-US', {
+                  month: 'long',
                   day: 'numeric',
                   year: 'numeric'
                   })}
