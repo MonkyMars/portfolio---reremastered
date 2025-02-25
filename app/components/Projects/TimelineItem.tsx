@@ -25,6 +25,7 @@ export interface TimelineProps {
   project: projects;
   onClose: () => void;
 }
+
 export const TimeLineItem = ({
   item,
   index,
@@ -33,11 +34,11 @@ export const TimeLineItem = ({
   index: number;
 }) => (
   <div
-    className={`flex items-center mb-8 ${
-      index % 2 === 0 ? "flex-row-reverse" : ""
+    className={`flex flex-col md:flex-row items-center mb-8 ${
+      index % 2 === 0 ? "md:flex-row-reverse" : ""
     }`}
   >
-    <div className={`w-1/2 ${index % 2 === 0 ? "pl-8" : "pr-8"}`}>
+    <div className={`w-full md:w-1/2 ${index % 2 === 0 ? "md:pl-8" : "md:pr-8"}`}>
       <div className="bg-primary-100/80 p-6 rounded-lg shadow-md">
         {item.image ? (
           <div className="relative w-full h-48 mb-4">

@@ -8,6 +8,7 @@ import { type projects } from "./TimelineItem";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<projects | null>(null);
+  
   const projects: projects[] = [
     {
       title: "CarList",
@@ -241,6 +242,7 @@ const Projects = () => {
       }
     }
   ];
+
   return (
     <section
       className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-2 border-primary-100"
