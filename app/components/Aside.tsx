@@ -28,7 +28,7 @@ const Aside = () => (
         <span className="flex items-center gap-3">
           GitHub
           <Image
-            src="/github-mark.svg"
+            src="/icons/github.png"
             alt="github"
             width={28}
             height={28}

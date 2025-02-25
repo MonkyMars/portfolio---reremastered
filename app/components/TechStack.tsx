@@ -28,7 +28,7 @@ const TechStack = () => {
       label: "TypeScript",
       iconSrc: "typescript",
       experience: 2023,
-      note: "TypeScript is a must-have for any serious project. It helps me to catch errors before they even happen.",
+      note: "TypeScript is a must-have for any serious project. It helps me to catch errors before they even happen. Of course JavaScript is great, but TypeScript is better.",
       type: "language",
     },
     {
@@ -52,6 +52,34 @@ const TechStack = () => {
       note: "Git is a must-have for me. I use it for every project I work on, even if it's just a small project.",
       type: "tool",
     },
+    {
+      label: "GitHub",
+      iconSrc: "github",
+      experience: 2023,
+      note: "I use GitHub for almost everything, contributing and hosting projects. I couldn't live without it.",
+      type: "service",
+    },
+    {
+      label: "SupaBase",
+      iconSrc: "supabase",
+      experience: 2024,
+      note: "SupaBase is a great service for hosting databases. It's easy to use and has a great documentation.",
+      type: "service",
+    },
+    {
+      label: "Vercel",
+      iconSrc: "vercel",
+      experience: 2023,
+      note: "Vercel is my go-to for hosting my projects. It's fast, easy to use and has great support.",
+      type: "service",
+    },
+    {
+      label: "PostgreSQL",
+      iconSrc: "postgresql",
+      experience: 2024,
+      note: "I've used PostgreSQL mostly in the past, ever since I discovered SupaBase I've been using it more.",
+      type: "service",
+    }
   ];
 
   return (
