@@ -9,7 +9,8 @@ const Experiences = () => {
     {
       title: "First Steps in Programming",
       date: "27/11/2022",
-      description: "Developed and deployed my first application: a Discord bot using Python",
+      description:
+        "Developed and deployed my first application: a Discord bot using Python",
     },
     {
       title: "Career Focus Shift",
@@ -20,8 +21,8 @@ const Experiences = () => {
     {
       title: "Creating projects",
       date: "2024",
-      description: 
-      "Made multiple projects in Next.js, TypeScript and Tailwind CSS. The projects include a webstore, a social media platform, a personal gallery and a collection of albumcovers",
+      description:
+        "Made multiple projects in Next.js, TypeScript and Tailwind CSS. The projects include a webstore, a social media platform, a personal gallery and a collection of albumcovers",
     },
     {
       title: "Q42 Internship",
@@ -31,13 +32,19 @@ const Experiences = () => {
     },
     {
       title: "Independent Full-Stack Developer",
-      date: "Present",
-      description: "Actively developing full-stack applications and expanding technical expertise through daily project work",
+      date: `${String(new Date().getDate()).padStart(2, "0")}/${String(
+        new Date().getMonth() + 1
+      ).padStart(2, "0")}/${new Date().getFullYear()}`,
+      description:
+        "Actively developing full-stack applications and expanding technical expertise through daily project work",
     },
   ];
 
   return (
-    <section className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-1 border-[rgba(255,255,255, 0.1)]" id="experience">
+    <section
+      className="bg-white rounded-2xl shadow-lg p-8 mb-8 border-1 border-[rgba(255,255,255, 0.1)]"
+      id="experience"
+    >
       <h2 className="text-2xl font-doto font-extrabold text-gray-800 mb-6 flex items-center gap-2">
         Experience
         <div className="h-1 w-24 bg-primary-500 rounded-full"></div>
